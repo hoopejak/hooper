@@ -12,7 +12,7 @@ main:
     url: /publications/
     
   - title: "CV"
-    url: _data/JFH CV 9.25.pdf
+    url: /files/JFH CV 9.25.pdf
   # - title: "CV"
   #   url: /cv-json/
     
