@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Jake Hooper"
   pronouns         : # example: "she/her"  
-  bio              : "Jake Hooper is a cognitive systems neuroscience doctoral student at the University of Oregon focused on perception, aesthetics, and altered states of consciousness. Previously, he worked as a clinical research coordinator in the Department of Psychiatry at the University of Colorado Anschutz, where he managed several clinical trials on substance use and cognitive impairment, with a focus on cannabis. During this time, he also helped expand research efforts into the emerging field of psychedelics. His current work integrates complexity science, predictive processing, and neuroaesthetics to study how the brain constructs meaning and aesthetic experience, including under psychedelics."
+  bio              : "Jake Hooper is a cognitive systems neuroscience doctoral student at the University of Oregon focused on perception, aesthetics, and altered states of consciousness."
   location         : "Eugene, Oregon"
   employer         : "University of Oregon"
   uri              : 
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/jake-hooper1"
+  linkedin         : "jake-hooper1"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
