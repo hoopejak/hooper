@@ -9,12 +9,7 @@
 
 main:
   - title: "Publications"
-    url: "https://scholar.google.com/citations?user=M3HDB0AAAAAJ&hl=en&oi=ao"
+    url: /publications/
     
   - title: "CV"
     url: /files/JFH CV 9.25.pdf
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
