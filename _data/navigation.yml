@@ -9,10 +9,7 @@
 
 main:
   - title: "Publications"
-    url: /publications/    
-      
-  - title: "Artworks"
-    url: /artworks/
+    url: /publications/
     
   - title: "CV"
     url: /cv/
