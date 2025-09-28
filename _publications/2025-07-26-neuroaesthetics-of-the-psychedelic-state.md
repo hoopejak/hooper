@@ -1,4 +1,5 @@
 ---
+image: "/images/publications/Hooper2025b.pdf"
 title: "Neuroaesthetics of the psychedelic state"
 collection: publications
 category: manuscripts
