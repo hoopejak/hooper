@@ -1,4 +1,5 @@
 ---
+image: "/images/publications/Mueller2025.pdf"
 title: "A preliminary randomized trial of the safety, tolerability, and clinical effects of hemp-derived cannabidiol in alcohol use disorder"
 collection: publications
 category: manuscripts
