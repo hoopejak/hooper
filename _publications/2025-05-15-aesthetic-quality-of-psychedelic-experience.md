@@ -8,7 +8,7 @@ excerpt: "This study links the aesthetic quality of retrospective self-reported 
 date: 2025-05-15
 venue: "Frontiers in Psychology Sec. Consciousness Research"
 paperurl: "https://doi.org/10.3389/fpsyg.2025.1533055"
-citation: "Hooper JF, Gyongyosi EL, Hutchison KE, Mueller RL. (2025). Aesthetic quality of psychedelic experience is linked to insight and psychological outcomes. <i>Frontiers in Psychology</i>."
+citation: "Hooper JF, Gyongyosi EL, Hutchison KE, Mueller RL. (2025). Aesthetic quality of psychedelic experience is linked to insight and psychological outcomes. <i>Front. Psychol.</i>. 16:1533055. doi: 10.3389/fpsyg.2025.1533055"
 ---
 
 Introduction: The aesthetic qualities of psychedelic experiences have long been documented, but their specific contribution to therapeutic outcomes remains understudied. Aesthetic experiences may facilitate emotional breakthroughs and cognitive shifts, potentially playing a crucial role in the lasting psychological benefits observed following psychedelic use.
