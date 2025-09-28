@@ -1,0 +1,6 @@
+/* Custom overrides for Jake Hooper's academic site */
+
+/* Remove the default circular border on the author avatar */
+.author__avatar img {
+  border-radius: 0;
+}
