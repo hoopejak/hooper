@@ -11,12 +11,9 @@ author_profile: true
 {% endcomment %}
 
 <div class="art-gallery">
-  {% assign artwork_files = site.static_files | where: "path", "images/artworks" %}
   {% for file in site.static_files %}
     {% if file.path contains 'images/artworks' %}
-      <a href="{{ file.path | relative_url }}">
-        <img src="{{ file.path | relative_url }}" alt="Artwork">
-      </a>
+      <img src="{{ file.path | relative_url }}" alt="{{ file.name }}">
     {% endif %}
   {% endfor %}
 </div>
