@@ -8,6 +8,24 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", Georgia, serif;
 }
 
+* Gallery layout for artworks page */
+.art-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.art-gallery a {
+  flex-basis: calc(33.333% - 1rem);
+  box-sizing: border-box;
+}
+
+.art-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.25rem;
+}
 
 /* Remove the default circular border on the author avatar */
 .author__avatar img {
