@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year doctoral student in cognitive systems neuroscience at the University of Oregon, advised by Dr. Margaret Sereno. I study visual perception, neuroaesthetics, and altered states of consciousness.
+I'm a first year doctoral student in cognitive systems neuroscience at the University of Oregon, advised by [Dr. Margaret Sereno] (https://serenolab.uoregon.edu/research/). I study visual perception, neuroaesthetics, and altered states of consciousness.
 
 Previously, I worked as a clinical research coordinator in the [CHAOS Lab](https://medschool.cuanschutz.edu/psychiatry/research/faculty-labs/chaos-lab) housed within the Department of Psychiatry at the University of Colorado Anschutz. There, I managed several clinical trials on substance use and cognitive impairment, with a focus on cannabis, and helped expand research into the emerging field of psychedelics.
 
