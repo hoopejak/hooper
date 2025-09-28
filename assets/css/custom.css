@@ -31,3 +31,16 @@ h1, h2, h3, h4, h5, h6 {
 .author__avatar img {
   border-radius: 0;
 }
+
+/* Publication thumbnails: size and alignment */
+.pub-thumbnail {
+  width: 100px;        /* choose a width that suits you */
+  height: auto;
+  float: left;
+  margin: 0 1rem 0.5rem 0;
+}
+
+/* Clear floats so the following content doesn’t wrap under the image */
+.archive__item {
+  overflow: hidden;
+}
