@@ -5,10 +5,10 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-cannabidiol-alcohol-use-disorder-trial
 excerpt: "This randomized pilot trial evaluates the safety, tolerability and clinical effects of hemp-derived cannabidiol in individuals with alcohol use disorder."
-date: 2025-04-28
+date: 2025-04-27
 venue: "Frontiers in Psychiatry"
 paperurl: "https://doi.org/10.3389/fpsyt.2025.1516351"
-citation: "Mueller RL, Hooper JF, Ellingson JM, Olsavsky AK, Rzasa-Lynn R, Bryan AD, Bidwell LC, Hutchison KE. (2025). A preliminary randomized trial of the safety, tolerability, and clinical effects of hemp-derived cannabidiol in alcohol use disorder. <i>Frontiers in Psychiatry</i>."
+citation: "Mueller RL, Hooper JF, Ellingson JM, Olsavsky AK, Rzasa-Lynn R, Bryan AD, Bidwell LC, Hutchison KE. (2025). A preliminary randomized trial of the safety, tolerability, and clinical effects of hemp-derived cannabidiol in alcohol use disorder. <i>Frontiers in Psychiatry</i>. 16:1516351. doi: 10.3389/fpsyt.2025.1516351"
 ---
 
 Introduction: Cannabidiol (CBD) has recently gained attention for its potential therapeutic effects in substance use disorders, including Alcohol Use Disorder (AUD). This study examined the potential therapeutic effects of commercially available products containing CBD with and without a small amount of tetrahydrocannabinol (THC) on alcohol use and craving among individuals with moderate to severe AUD.
