@@ -8,7 +8,7 @@ excerpt: "This study refines and validates the Psychedelic Aesthetic Experience 
 date: 2025-09-15
 venue: "Frontiers in Psychology Sec. Consciousness Research"
 paperurl: "https://doi.org/10.3389/fpsyg.2025.1648968"
-citation: "Hooper JF, Ellingson JM, Hutchison KE. (2025). Preliminary Validation and Refinement of the Psychedelic Aesthetic Experience Questionnaire. <i>Frontiers in Psychology</i>."
+citation: "Hooper JF, Ellingson JM, Hutchison KE. (2025). Preliminary Validation and Refinement of the Psychedelic Aesthetic Experience Questionnaire. <i>Frontiers in Psychology</i>. 16:1648968 doi: 10.3389/fpsyg.2025.1648968"
 ---
 
 Introduction: Aesthetic experiences under psychedelics are often described as vivid, emotionally powerful, and meaningful, yet they remain under-measured in psychometric research. This study aimed to refine and validate the Psychedelic Aesthetic Experience Questionnaire (PAEQ), a novel instrument designed to assess the aesthetic dimensions of acute psychedelic experiences.
