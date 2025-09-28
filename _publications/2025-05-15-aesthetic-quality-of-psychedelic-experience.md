@@ -1,5 +1,5 @@
 ---
-image: "/images/publications/Hooper2025a.pdf"
+image: "/images/publications/Hooper2025a_Page_01.jpg"
 title: "Aesthetic quality of psychedelic experience is linked to insight and psychological outcomes"
 collection: publications
 category: manuscripts
