@@ -1,11 +1,11 @@
 /* Custom overrides for Jake Hooper's academic site */
 
 body {
-  font-family: "Merriweather", Georgia, serif;
+  font-family: "Courier New", Courier, monospace !important;
 }
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", Arial, sans-serif;
+  /* Optional: a separate heading font */
+  font-family: "Courier New", Courier, monospace !important;
 }
 
 /* Remove the default circular border on the author avatar */
