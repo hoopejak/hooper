@@ -1,8 +1,13 @@
 /* Custom overrides for Jake Hooper's academic site */
 
 body {
-  font-family: "Courier Prime", "Courier New", monospace !important;
+  font-family: "Merriweather", Georgia, serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
 
 /* Remove the default circular border on the author avatar */
 .author__avatar img {
