@@ -1,4 +1,5 @@
 ---
+image: "/images/publications/Mueller2025.jpg"
 title: "Preliminary validation and refinement of the psychedelic aesthetic experience questionnaire"
 collection: publications
 category: manuscripts
