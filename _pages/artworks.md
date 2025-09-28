@@ -5,13 +5,17 @@ permalink: /artworks/
 author_profile: true
 ---
 
+{% comment %}
+  This page displays a simple gallery of images contained in the `images/artworks` folder.
+  Add your drawing files (e.g., JPG or PNG) to `images/artworks/` in the site root.
+{% endcomment %}
+
 {% include base_path %}
 
 <div class="art-gallery">
-  <img src="{{ '/images/artworks/26DE648F-DB35-4F53-A98C-BC40922522E2.jpeg' | prepend: base_path }}" alt="26DE648F-DB35-4F53-A98C-BC40922522E2">
-  <img src="{{ '/images/artworks/FullSizeRender.jpeg' | prepend: base_path }}" alt="FullSizeRender">
-  <img src="{{ '/images/artworks/IMG_1964.jpeg' | prepend: base_path }}" alt="IMG_1964">
-  <img src="{{ '/images/artworks/IMG_2955.jpeg' | prepend: base_path }}" alt="IMG_2955">
-  <img src="{{ '/images/artworks/IMG_5746.jpeg' | prepend: base_path }}" alt="IMG_5746">
-  <img src="{{ '/images/artworks/IMG_9735.jpeg' | prepend: base_path }}" alt="IMG_9735">
+  {% for file in site.static_files %}
+    {% if file.path contains 'images/artworks' %}
+      <img src="{{ file.path | prepend: base_path }}" alt="{{ file.name }}">
+    {% endif %}
+  {% endfor %}
 </div>
