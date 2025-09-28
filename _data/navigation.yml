@@ -9,7 +9,6 @@
 
 main:  
   - title: "CV"
-    url: /files/JAKE HOOPER RESUME 10.25.pdf
-
-  – title: "Publications"
+    url: /files/JFH_CV_10_25.pdf
+  - title: "Publications"
     url: /publications/
