@@ -1,5 +1,5 @@
 ---
-image: "/images/publications/Hooper2025c.pdf"
+image: "/images/publications/Hooper2025c_Page_01.jpg"
 title: "Preliminary validation and refinement of the psychedelic aesthetic experience questionnaire"
 collection: publications
 category: manuscripts
