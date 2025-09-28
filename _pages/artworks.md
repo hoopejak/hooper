@@ -12,7 +12,7 @@ author_profile: true
 
 <div class="art-gallery">
   {% for file in site.static_files %}
-    {% if file.path contains 'images/artworks' %}
+    {% if file.path contains '/images/artworks' %}
       <img src="{{ file.path | relative_url }}" alt="{{ file.name }}">
     {% endif %}
   {% endfor %}
