@@ -27,7 +27,7 @@
     {% endif %}
 
 {% if post.collection == 'publications' and post.image %}
-  <img class="pub-thumbnail" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  <img class="pub-thumbnail" src="{{ post.image | prepend: base_path }}" alt="{{ post.title }}">
 {% endif %}
     
     <h2 class="archive__item-title" itemprop="headline">
