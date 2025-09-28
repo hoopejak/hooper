@@ -44,3 +44,14 @@ h1, h2, h3, h4, h5, h6 {
 .archive__item {
   overflow: hidden;
 }
+
+/* Publication thumbnails */
+.pub-thumbnail {
+  width: 100px;          /* or whatever size you settled on */
+  height: auto;
+  float: left;
+  margin: 0 1rem 0.5rem 0;
+  border: 1px solid #000; /* black border */
+  padding: 2px;           /* optional: space between image and border */
+}
+
