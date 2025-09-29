@@ -10,8 +10,9 @@ redirect_from:
 <section class="intro">
   <div class="intro-text">
     <p>I'm a first year doctoral student in cognitive systems neuroscience at the University of Oregon, advised by <a href="https://serenolab.uoregon.edu/research/">Dr. Margaret Sereno</a>. I study visual perception, neuroaesthetics, and altered states of consciousness.</p>
+    <p>Previously, I worked as a clinical research coordinator in the <a href="https://medschool.cuanschutz.edu/psychiatry/research/faculty-labs/chaos-lab">CHAOS Lab</a> housed within the Department of Psychiatry at the University of Colorado Anschutz. There, I managed several clinical trials on substance use and cognitive impairment, with a focus on cannabis, and helped expand research into the emerging field of psychedelics.</p>
+  </div>
 </section>
-Previously, I worked as a clinical research coordinator in the [CHAOS Lab](https://medschool.cuanschutz.edu/psychiatry/research/faculty-labs/chaos-lab) housed within the Department of Psychiatry at the University of Colorado Anschutz. There, I managed several clinical trials on substance use and cognitive impairment, with a focus on cannabis, and helped expand research into the emerging field of psychedelics.
 
 Research Interests
 ------
