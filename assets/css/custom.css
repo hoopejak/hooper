@@ -2,7 +2,9 @@
 
 body {
   font-family: "Merriweather", Georgia, serif;
+  font-size: 14px;   /* smaller body text */
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", Georgia, serif;
