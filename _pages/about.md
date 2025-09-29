@@ -10,7 +10,6 @@ redirect_from:
 <section class="intro">
   <img src="/images/jake.jpg" alt="Jake" class="intro-photo">
   <div class="intro-text">
-    <h1>Hello, I'm Jake</h1>
     <p>I'm a first year doctoral student in cognitive systems neuroscience at the University of Oregon, advised by <a href="https://serenolab.uoregon.edu/research/">Dr. Margaret Sereno</a>. I study visual perception, neuroaesthetics, and altered states of consciousness.</p>
   </div>
 </section>
