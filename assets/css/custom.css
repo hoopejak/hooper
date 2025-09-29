@@ -58,3 +58,20 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2px;           /* optional: space between image and border */
 }
 
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.intro-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.intro-text {
+  flex: 1;
+}
