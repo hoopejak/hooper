@@ -1,13 +1,16 @@
 /* Custom overrides for Jake Hooper's academic site */
 
 body {
-  font-family: "Merriweather", Georgia, serif;
-  font-size: 16px;   /* smaller body text */
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Merriweather", Georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 
 * Gallery layout for artworks page */
