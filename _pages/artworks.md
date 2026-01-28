@@ -5,17 +5,36 @@ permalink: /artworks/
 author_profile: true
 ---
 
-{% comment %}
-  This page displays a simple gallery of images contained in the `images/artworks` folder.
-  Add your drawing files (e.g., JPG or PNG) to `images/artworks/` in the site root.
-{% endcomment %}
-
 {% include base_path %}
 
-<div class="art-gallery">
-  {% for file in site.static_files %}
-    {% if file.path contains 'images/artworks' %}
-      <img src="{{ file.path | prepend: base_path }}" alt="{{ file.name }}">
+{% assign artworks = site.static_files | where_exp: "f", "f.path contains '/images/artworks/'" %}
+
+{%- comment -%}
+Optional: if filenames begin with YYYY-MM-DD_ or 001_, sorting will be stable and meaningful.
+{%- endcomment -%}
+{% assign artworks = artworks | sort: "name" | reverse %}
+
+<div class="art-gallery" role="list">
+  {% for file in artworks %}
+    {% assign ext = file.extname | downcase %}
+    {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" or ext == ".gif" %}
+
+      {% assign stem = file.name | split: "." | first %}
+      {% assign caption = stem | replace: "-", " " | replace: "_", " " %}
+
+      <figure class="art-item" role="listitem">
+        <a href="{{ file.path | prepend: base_path }}">
+          <img
+            src="{{ file.path | prepend: base_path }}"
+            alt="{{ caption | escape }}"
+            loading="lazy"
+            decoding="async"
+          >
+        </a>
+        <figcaption class="art-caption">{{ caption }}</figcaption>
+      </figure>
+
     {% endif %}
   {% endfor %}
 </div>
+
