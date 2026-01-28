@@ -78,3 +78,34 @@ h1, h2, h3, h4, h5, h6 {
 .intro-text {
   flex: 1;
 }
+
+/* Art captions */
+.art-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:16px;
+  align-items:start;
+}
+
+.art-item{
+  margin:0;
+}
+
+.art-item a{
+  display:block;
+}
+
+.art-item img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:12px;
+}
+
+.art-caption{
+  margin-top:8px;
+  font-size:0.9rem;
+  line-height:1.2;
+  opacity:0.8;
+}
+
