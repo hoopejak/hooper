@@ -20,6 +20,6 @@ Results: Analyses of attrition and side effect data indicated no significant dif
 Discussion: In this pilot study, safety profiles fsCBD and bsCBD were similar, and fsCBD was associated with a greater reduction in craving and AUD symptoms relative to both bsCBD and placebo. Future studies with larger sample sizes will be necessary to replicate and extend these findings by addressing the question of whether a small amount of THC may work synergistically with CBD.
 
 <div class="altmetric-embed"
-     data-badge-type="donut"
+     data-badge-type="badge"
      data-doi="10.3389/fpsyt.2025.1516351">
 </div>
