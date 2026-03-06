@@ -20,6 +20,6 @@ Results: EFA and CFA supported a four-factor structure reflecting sensory, affec
 Discussion: Despite some weaknesses, the PAEQ provides a psychometrically sound measure of aesthetic engagement during psychedelic experiences, a domain not fully captured by existing instruments. Its multidimensional structure grounded in the aesthetic triad and flow theory offers new avenues for assessing altered states of consciousness and their therapeutic relevance.Conclusion: The refined PAEQ is a valid tool for quantifying aesthetic aspects of psychedelic experiences and contributes to advancing empirical approaches for characterizing altered states of consciousness.
 
 <div class="altmetric-embed"
-     data-badge-type="donut"
+     data-badge-type="badge"
      data-doi="10.3389/fpsyg.2025.1648968">
 </div>
