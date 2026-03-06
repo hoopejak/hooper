@@ -18,3 +18,8 @@ Methods: This cross-sectional study surveyed 96 individuals who reported using c
 Results: Aesthetic experience was significantly associated with greater emotional breakthrough (r = .40), psychological insight (r = .48), behavioral change (r = .55), and mystical experience (r = .49) (all p < .001). Aesthetic experience was also inversely associated with fear (r = –.24, p < .05) and paranoia (r = –.36, p < .001). Regression models indicated aesthetic quality predicted improvements in depression, anxiety, and quality of life, independent of age, gender, or mystical experience.
 
 Discussion: These findings suggest that aesthetic aspects of psychedelic experiences are not merely perceptual enhancements but may actively contribute to therapeutic outcomes. The inverse relationship between aesthetic quality and challenging experiences highlights the potential utility of optimizing the aesthetic environment in psychedelic-assisted therapy. Future research should further validate the PAEQ and explore causal mechanisms using longitudinal and experimental designs.
+
+<div class="altmetric-embed"
+     data-badge-type="donut"
+     data-doi="10.3389/fpsyg.2025.1533055">
+</div>
