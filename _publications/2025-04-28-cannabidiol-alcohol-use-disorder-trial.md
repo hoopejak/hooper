@@ -18,3 +18,8 @@ Methods: In this feasibility study, a total of 44 participants were randomized t
 Results: Analyses of attrition and side effect data indicated no significant differences across conditions, suggesting that both bsCBD and fsCBD were well tolerated. Individuals receiving fsCBD demonstrated reductions in craving but no reduction in drinks per drinking day.
 
 Discussion: In this pilot study, safety profiles fsCBD and bsCBD were similar, and fsCBD was associated with a greater reduction in craving and AUD symptoms relative to both bsCBD and placebo. Future studies with larger sample sizes will be necessary to replicate and extend these findings by addressing the question of whether a small amount of THC may work synergistically with CBD.
+
+<div class="altmetric-embed"
+     data-badge-type="donut"
+     data-doi="10.3389/fpsyt.2025.1516351">
+</div>
