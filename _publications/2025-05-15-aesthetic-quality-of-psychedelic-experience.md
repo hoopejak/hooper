@@ -20,6 +20,6 @@ Results: Aesthetic experience was significantly associated with greater emotiona
 Discussion: These findings suggest that aesthetic aspects of psychedelic experiences are not merely perceptual enhancements but may actively contribute to therapeutic outcomes. The inverse relationship between aesthetic quality and challenging experiences highlights the potential utility of optimizing the aesthetic environment in psychedelic-assisted therapy. Future research should further validate the PAEQ and explore causal mechanisms using longitudinal and experimental designs.
 
 <div class="altmetric-embed"
-     data-badge-type="donut"
+     data-badge-type="badge"
      data-doi="10.3389/fpsyg.2025.1533055">
 </div>
