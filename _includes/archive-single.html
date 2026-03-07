@@ -45,12 +45,19 @@
           {% endif %}
 
           <div class="pub-links">
-            {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
-            {% if post.doi %}<a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
-          </div>
-        </div>
-      </div>
+  {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+  {% if post.doi %}<a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
+  <a href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
+
+  {% if post.doi %}
+    <span class="pub-altmetric">
+      <span class="altmetric-embed"
+            data-badge-type="badge"
+            data-doi="{{ post.doi }}"
+            data-hide-no-mentions="true"></span>
+    </span>
+  {% endif %}
+</div>
 
     {% else %}
 
