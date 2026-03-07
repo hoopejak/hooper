@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pub-meta {
   font-size: 0.95rem;
-  color: #666;
+  color: inherit;
   margin-bottom: 0.6rem;
   display: flex;
   align-items: center;
