@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.98rem;
   line-height: 1.5;
   color: #333;
-  max-width: 60ch;
+  max-width: 75ch;
 }
 
 .pub-links {
@@ -128,3 +128,28 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
 }
 
+.pub-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 0.92rem;
+  margin-top: 0.15rem;
+}
+
+.pub-links a {
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
