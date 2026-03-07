@@ -35,16 +35,8 @@
           </h2>
 
           <div class="pub-meta">
-            <span>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
-            {% if post.doi %}
-              <span class="pub-altmetric">
-                <span class="altmetric-embed"
-                      data-badge-type="badge"
-                      data-doi="{{ post.doi }}"
-                      data-hide-no-mentions="true"></span>
-              </span>
-            {% endif %}
-          </div>
+  <span>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
+</div>
 
           {% if post.excerpt %}
             <p class="archive__item-excerpt" itemprop="description">
