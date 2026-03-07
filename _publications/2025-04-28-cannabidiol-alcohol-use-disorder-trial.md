@@ -7,6 +7,7 @@ permalink: /publication/2025-cannabidiol-alcohol-use-disorder-trial
 excerpt: "This randomized pilot trial evaluates the safety, tolerability and clinical effects of hemp-derived cannabidiol in individuals with alcohol use disorder."
 date: 2025-04-27
 venue: "Frontiers in Psychiatry"
+doi: "10.3389/fpsyt.2025.1516351"
 paperurl: "https://doi.org/10.3389/fpsyt.2025.1516351"
 citation: "Mueller RL, Hooper JF, Ellingson JM, Olsavsky AK, Rzasa-Lynn R, Bryan AD, Bidwell LC, Hutchison KE. (2025). A preliminary randomized trial of the safety, tolerability, and clinical effects of hemp-derived cannabidiol in alcohol use disorder. <i>Front. Psychiatry</i>. 16:1516351. doi: 10.3389/fpsyt.2025.1516351"
 ---
