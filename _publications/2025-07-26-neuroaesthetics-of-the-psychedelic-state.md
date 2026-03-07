@@ -7,6 +7,7 @@ permalink: /publication/2025-neuroaesthetics-of-the-psychedelic-state
 excerpt: "This paper outlines neural mechanisms underlying the aesthetic experience during psychedelic states and calls for direct research."
 date: 2025-07-26
 venue: "Neuropsychologia"
+doi: "10.1016/j.neuropsychologia.2025.109238"
 paperurl: "https://doi.org/10.1016/j.neuropsychologia.2025.109238"
 citation: "Hooper JF, Stoliker D, Wolfe K, Hutchison KE. (2025). Neuroaesthetics of the psychedelic state. <i>Neuropsychologia</i>. 109238. doi: 10.1016/j.neuropsychologia.2025.109238"
 ---
