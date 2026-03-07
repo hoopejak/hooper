@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-* Gallery layout for artworks page */
+/* Gallery layout for artworks page */
 .art-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -38,27 +38,76 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 
-/* Publication thumbnails: size and alignment */
-.pub-thumbnail {
-  width: 100px;        /* choose a width that suits you */
-  height: auto;
-  float: left;
-  margin: 0 1rem 0.5rem 0;
-}
+/* ------------------------- */
+/* Publications layout       */
+/* ------------------------- */
 
-/* Clear floats so the following content doesn’t wrap under the image */
 .archive__item {
-  overflow: hidden;
+  margin-bottom: 2.2rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #e6e6e6;
 }
 
-/* Publication thumbnails */
+.archive__item:last-child {
+  border-bottom: none;
+}
+
+.pub-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
 .pub-thumbnail {
-  width: 100px;          /* or whatever size you settled on */
+  width: 95px;
+  min-width: 95px;
   height: auto;
-  float: left;
-  margin: 0 1rem 0.5rem 0;
-  border: 1px solid #000; /* black border */
-  padding: 2px;           /* optional: space between image and border */
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.archive__item-title {
+  margin: 0 0 0.35rem 0;
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+
+.pub-meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.pub-altmetric {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pub-altmetric .altmetric-embed {
+  transform: translateY(1px);
+}
+
+.archive__item-excerpt {
+  margin: 0 0 0.7rem 0;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: #333;
+  max-width: 60ch;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .intro {
