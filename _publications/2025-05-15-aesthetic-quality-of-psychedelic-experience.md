@@ -7,6 +7,7 @@ permalink: /publication/2025-aesthetic-quality-psychedelic-experience-insight-ou
 excerpt: "This study links the aesthetic quality of retrospective self-reported psychedelic experiences to measures of perceived insight and psychological outcomes."
 date: 2025-05-15
 venue: "Frontiers in Psychology Sec. Consciousness Research"
+doi: "10.3389/fpsyg.2025.1533055"
 paperurl: "https://doi.org/10.3389/fpsyg.2025.1533055"
 citation: "Hooper JF, Gyongyosi EL, Hutchison KE, Mueller RL. (2025). Aesthetic quality of psychedelic experience is linked to insight and psychological outcomes. <i>Front. Psychol.</i>. 16:1533055. doi: 10.3389/fpsyg.2025.1533055"
 ---
