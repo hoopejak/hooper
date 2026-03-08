@@ -157,8 +157,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Match homepage typography to publications page */
 
 .page__content p {
-  font-size: 0.98rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.25;
   max-width: 75ch;
   margin-bottom: 0.7rem;
 }
