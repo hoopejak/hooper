@@ -153,3 +153,27 @@ h1, h2, h3, h4, h5, h6 {
 .pub-links a:hover {
   text-decoration: underline;
 }
+
+/* Match homepage typography to publications page */
+
+.page__content p {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  max-width: 75ch;
+  margin-bottom: 0.7rem;
+}
+
+.page__content li {
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.page__content h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.35rem;
+}
+
+.page__content h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+}
