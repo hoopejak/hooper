@@ -12,10 +12,23 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="art-gallery">
+<div class="artworks-intro">
+  <p>This page collects a selection of my visual work. Click any image to view it at full size.</p>
+</div>
+
+<div class="art-gallery" role="list">
+  {% assign artwork_index = 0 %}
   {% for file in site.static_files %}
     {% if file.path contains 'images/artworks' %}
-      <img src="{{ file.path | prepend: base_path }}" alt="{{ file.name }}">
+      {% assign artwork_index = artwork_index | plus: 1 %}
+      <figure class="art-gallery__item" role="listitem">
+        <a href="{{ file.path | prepend: base_path }}" target="_blank" rel="noopener noreferrer">
+          <img
+            src="{{ file.path | prepend: base_path }}"
+            alt="Artwork {{ artwork_index }}"
+            loading="lazy">
+        </a>
+      </figure>
     {% endif %}
   {% endfor %}
 </div>

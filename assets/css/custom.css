@@ -14,23 +14,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Gallery layout for artworks page */
-.art-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+.artworks-intro {
+  max-width: 75ch;
+  margin-bottom: 1.25rem;
 }
 
-.art-gallery a {
-  flex-basis: calc(33.333% - 1rem);
-  box-sizing: border-box;
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.art-gallery__item {
+  margin: 0;
 }
 
 .art-gallery img {
-  width: 500px;          /* fixed width */
-  height: 500px;         /* fixed height */
-  object-fit: cover;     /* crops while preserving aspect ratio */
+  width: 100%;
+  height: auto;
   display: block;
   border-radius: 0.25rem;
+  transition: opacity 0.15s ease;
+}
+
+.art-gallery a {
+  display: block;
+}
+
+.art-gallery a:hover img {
+  opacity: 0.92;
 }
 
 /* Remove the default circular border on the author avatar */

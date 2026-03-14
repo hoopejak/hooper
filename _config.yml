@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Homepage"
+title                    : "Jake Hooper"
 title_separator          : "-"
 name                     : &name "Jake Hooper"
-description              : &description "personal description"
+description              : &description "Doctoral student in cognitive systems neuroscience studying visual perception, neuroaesthetics, and altered states of consciousness."
 url                      : https://www.jakehooper.org # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "hoopejak/hooper"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,10 +25,10 @@ author:
   avatar           : "IMG_3896.jpeg"
   name             : "Jake Hooper"
   pronouns         : # example: "she/her"  
-  bio              : "Doctoral Student in Cognitive Neuroscience"
+  bio              : "Doctoral student in cognitive systems neuroscience"
   location         : "Eugene, Oregon"
   employer         : "University of Oregon"
-  uri              : 
+  uri              : "https://serenolab.uoregon.edu/"
   email            : "jakehoop@uoregon.edu" 
 
   # Academic websites
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # Username
+  github           : "hoopejak"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -140,13 +140,19 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Jake Hooper"
+  links:
+    - "https://www.jakehooper.org"
+    - "https://github.com/hoopejak"
+    - "https://www.linkedin.com/in/jake-hooper1"
+    - "https://osf.io/x6qt7"
+    - "https://orcid.org/0009-0002-1350-3881"
+    - "https://scholar.google.com/citations?user=M3HDB0AAAAAJ&hl=en&oi=ao"
 
 
 # Analytics

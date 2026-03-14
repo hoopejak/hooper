@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello, I'm Jake"
+title: "Jake Hooper"
 author_profile: true
 redirect_from: 
   - /about/
