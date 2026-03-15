@@ -1,5 +1,17 @@
 /* Custom overrides for Jake Hooper's academic site */
 
+:root {
+  --home-card-bg: #eef2f7;
+  --home-card-border: #d8e0ea;
+  --home-meta-color: #666;
+}
+
+html[data-theme="dark"] {
+  --home-card-bg: #25303d;
+  --home-card-border: #3b4b5e;
+  --home-meta-color: var(--global-text-color-light);
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI",
                Roboto, Helvetica, Arial, sans-serif;
@@ -51,14 +63,22 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 
+.author__avatar {
+  margin-bottom: 1rem;
+}
+
+.author__content {
+  display: none;
+}
+
 /* ------------------------- */
 /* Publications layout       */
 /* ------------------------- */
 
 .archive__item {
-  margin-bottom: 2.2rem;
-  padding-bottom: 1.6rem;
-  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--global-border-color);
 }
 
 .archive__item:last-child {
@@ -75,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 95px;
   min-width: 95px;
   height: auto;
-  border: 1px solid #d9d9d9;
+  border: 1px solid var(--global-border-color);
   box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 
@@ -87,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 .archive__item-title {
   margin: 0 0 0.35rem 0;
   line-height: 1.2;
-  font-size: 1.4rem;
+  font-size: 1.75rem;
 }
 
 .pub-meta {
@@ -117,6 +137,14 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 75ch;
 }
 
+.page .page__title {
+  margin-bottom: 1.75rem;
+}
+
+.page__content > .archive__item:first-of-type {
+  margin-top: 0;
+}
+
 .pub-links {
   display: flex;
   gap: 0.9rem;
@@ -139,6 +167,121 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-text {
   flex: 1;
+}
+
+.home-hero {
+  max-width: 75ch;
+  margin-bottom: 2.5rem;
+}
+
+.home-hero__lead {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 72ch;
+}
+
+.home-section {
+  margin-top: 2.5rem;
+}
+
+.home-section--compact {
+  margin-top: 1.75rem;
+}
+
+.home-section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.home-section__header a {
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.home-section__header a:hover {
+  text-decoration: underline;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.home-card {
+  border: 1px solid var(--home-card-border);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background: var(--home-card-bg);
+}
+
+.home-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.home-card p {
+  margin-bottom: 0;
+}
+
+
+.home-list {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.home-list__item {
+  border-bottom: 1px solid var(--global-border-color);
+  padding-bottom: 1rem;
+}
+
+.home-list__item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.home-list__item h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  line-height: 1.25;
+}
+
+.home-list__item h3 a {
+  text-decoration: none;
+}
+
+.home-list__item h3 a:hover {
+  text-decoration: underline;
+}
+
+.home-list__meta {
+  font-size: 0.92rem;
+  color: var(--home-meta-color);
+  margin-bottom: 0.35rem;
+}
+
+.home-art-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.home-art-preview__item {
+  display: block;
+}
+
+.home-art-preview__item img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  display: block;
 }
 
 .pub-entry {
