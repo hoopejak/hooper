@@ -30,10 +30,6 @@ redirect_from:
       <h3>Psychedelics and consciousness</h3>
       <p>I am interested in how altered states of consciousness can clarify mechanisms of perception, cognition, and aesthetic experience.</p>
     </div>
-    <div class="home-card">
-      <h3>Active inference</h3>
-      <p>My involvement with the <a href="https://www.activeinference.institute/">Active Inference Institute</a> complements my interest in hierarchical predictive coding and questions about how brains generate perception, meaning, and models of self and world.</p>
-    </div>
   </div>
 </section>
 
