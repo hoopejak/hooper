@@ -11,7 +11,7 @@ redirect_from:
 {% assign ordered_artworks = "artwork-01.jpg,artwork-13.jpg,artwork-09.jpeg,artwork-14.jpg,artwork-02.jpg,artwork-15.jpg,artwork-03.jpg,artwork-16.jpg,artwork-11.jpeg,artwork-17.jpg,artwork-04.jpg,artwork-18.jpg,artwork-06.jpg,artwork-19.jpg,artwork-10.jpeg,artwork-20.jpg,artwork-05.jpg,artwork-21.jpg,artwork-08.jpg,artwork-22.jpg,artwork-07.jpg,artwork-12.jpg" | split: "," %}
 
 <section class="home-hero">
-  <p class="home-hero__lead">I'm a first year doctoral student in cognitive systems neuroscience at the University of Oregon, advised by <a href="https://serenolab.uoregon.edu">Dr. Margaret Sereno</a>. My work focuses on visual perception, aesthetic experience, self models, and altered states of consciousness. Previously, I worked as a clinical research coordinator in the <a href="https://medschool.cuanschutz.edu/psychiatry/research/faculty-labs/chaos-lab">CHAOS Lab</a> housed within the Department of Psychiatry at the University of Colorado Anschutz. There, I managed several clinical trials on substance use and cognitive impairment, with a focus on cannabis, and helped expand research into the emerging field of psychedelics.</p>
+  <p class="home-hero__lead">I'm a first year doctoral student in cognitive systems neuroscience at the University of Oregon, advised by <a href="https://serenolab.uoregon.edu">Dr. Margaret Sereno</a>. My work focuses on visual perception, aesthetic experience, self models, and altered states of consciousness. I am also a Fellow of the <a href="https://www.activeinference.institute/">Active Inference Institute</a>, where I contribute to interdisciplinary conversations in theoretical neuroscience. Previously, I worked as a clinical research coordinator in the <a href="https://medschool.cuanschutz.edu/psychiatry/research/faculty-labs/chaos-lab">CHAOS Lab</a> housed within the Department of Psychiatry at the University of Colorado Anschutz. There, I managed several clinical trials on substance use and cognitive impairment, with a focus on cannabis, and helped expand research into the emerging field of psychedelics.</p>
 </section>
 
 <section class="home-section">
@@ -29,6 +29,10 @@ redirect_from:
     <div class="home-card">
       <h3>Psychedelics and consciousness</h3>
       <p>I am interested in how altered states of consciousness can clarify mechanisms of perception, cognition, and aesthetic experience.</p>
+    </div>
+    <div class="home-card">
+      <h3>Active inference</h3>
+      <p>My involvement with the <a href="https://www.activeinference.institute/">Active Inference Institute</a> complements my interest in hierarchical predictive coding and questions about how brains generate perception, meaning, and models of self and world.</p>
     </div>
   </div>
 </section>
