@@ -1,0 +1,28 @@
+---
+layout: simple
+---
+
+{% include base_path %}
+
+<article class="simple-publication-page">
+  <p class="simple-back-link"><a href="{{ base_path }}/publications/">Back to publications</a></p>
+
+  <header class="simple-publication-page__header">
+    <h1>{{ page.title }}</h1>
+    <p class="simple-meta">{{ page.venue }} / {{ page.date | date: "%Y" }}</p>
+    {% if page.paperurl %}
+      <p class="simple-publication-page__paper"><a href="{{ page.paperurl }}">Read paper</a></p>
+    {% endif %}
+  </header>
+
+  <section class="simple-publication-page__content">
+    {{ content }}
+  </section>
+
+  {% if page.citation %}
+    <section class="simple-publication-page__citation">
+      <h2>Citation</h2>
+      <p>{{ page.citation }}</p>
+    </section>
+  {% endif %}
+</article>
