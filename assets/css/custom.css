@@ -458,7 +458,7 @@ body.simple-site {
 
 .simple-main {
   flex: 1;
-  padding: 4.5rem 0 7rem;
+  padding: 3.4rem 0 4.75rem;
 }
 
 .simple-hero,
@@ -841,7 +841,7 @@ body.simple-site {
   }
 
   .simple-main {
-    padding: 3rem 0 4rem;
+    padding: 2.5rem 0 3.25rem;
   }
 
   .simple-hero h1,
