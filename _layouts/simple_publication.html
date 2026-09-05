@@ -10,8 +10,12 @@ layout: simple
   <header class="simple-publication-page__header">
     <h1>{{ page.title }}</h1>
     <p class="simple-meta">{{ page.venue }} / {{ page.date | date: "%Y" }}</p>
-    {% if page.paperurl %}
-      <p class="simple-publication-page__paper"><a href="{{ page.paperurl }}">Read paper</a></p>
+    {% if page.paperurl or page.preprinturl %}
+      <p class="simple-publication-page__paper">
+        {% if page.paperurl %}<a href="{{ page.paperurl }}">Read paper</a>{% endif %}
+        {% if page.paperurl and page.preprinturl %}<span aria-hidden="true"> / </span>{% endif %}
+        {% if page.preprinturl %}<a href="{{ page.preprinturl }}">Read preprint</a>{% endif %}
+      </p>
     {% endif %}
   </header>
 

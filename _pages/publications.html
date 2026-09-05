@@ -17,7 +17,8 @@ permalink: /publications/
       <p class="simple-meta">{{ post.venue }} / {{ post.date | date: "%Y" }}</p>
       {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
       <div class="simple-publication__links">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">DOI / Paper</a>{% endif %}
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.preprinturl %}<a href="{{ post.preprinturl }}">Preprint</a>{% endif %}
       </div>
     </article>
   {% endfor %}
