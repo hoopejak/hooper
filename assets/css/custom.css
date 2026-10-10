@@ -476,8 +476,7 @@ body.simple-site {
   text-transform: uppercase;
 }
 
-.simple-hero h1,
-.simple-page-heading h1 {
+.simple-hero h1 {
   margin: 0;
   color: var(--simple-text);
   font-size: clamp(2.35rem, 5.2vw, 4rem);
@@ -627,10 +626,11 @@ body.simple-site {
   margin: 0 0 2rem;
 }
 
-.simple-list-heading h1 {
+.simple-list-heading h1,
+.simple-page-heading h1 {
   margin: 0;
   color: var(--simple-text);
-  font-size: clamp(2.35rem, 5.2vw, 4rem);
+  font-size: clamp(2rem, 4.4vw, 3.4rem);
   font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 0.95;
@@ -844,8 +844,7 @@ body.simple-site {
     padding: 2.5rem 0 3.25rem;
   }
 
-  .simple-hero h1,
-  .simple-page-heading h1 {
+  .simple-hero h1 {
     font-size: clamp(2.7rem, 14vw, 4.4rem);
     line-height: 0.95;
   }

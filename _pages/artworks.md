@@ -9,7 +9,7 @@ permalink: /artworks/
 
 <section class="simple-page-heading">
   <h1>Artworks</h1>
-  <p>A selection of drawings and visual studies.</p>
+  <p>Some of my drawings and paintings</p>
 </section>
 
 <section class="simple-gallery" aria-label="Artwork gallery">
